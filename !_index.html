@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main/年計算アプリ</title>
+</head>
+
+<body>
+    <h1>年から入学・卒業を計算するWEBアプリ</h1>
+    <form action="cgi-bin/calc_year.py" method="post">
+        <p>誕生年・月を入力してください↓</p>
+        <p>誕生年（半角数字）: <label for=""></label>
+            <select name="val" id="">
+                <option value="m">明治</option>
+                <option value="t">大正</option>
+                <option value="s">昭和</option>
+                <option value="h">平成</option>
+                <option value="r">令和</option>
+                <option value="seireki">西暦</option>
+            </select>
+            <label for=""><input type="text" name="num_y" required></label> 年
+        </p>
+        <p><label for="">誕生月（半角数字）: <input type="text" name="num_m" required></label> 月</p>
+        <p><label for=""><button type="submit">計算</button></label></p>
+    </form>
+</body>
+
+</html>
