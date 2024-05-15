@@ -1,7 +1,6 @@
-
 #!/usr/bin/env python
 
-# 仮想サーバー上で起動することをを想定
+# !_index.htmlの情報を受け取り、仮想サーバー上で使用することを想定
 import sys
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='UTF-8')
