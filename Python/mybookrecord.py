@@ -457,16 +457,3 @@ button_onof(['to_ho','isbn','isbn_se','b_content'],0)
 
 root.configure(bg=c)
 root.mainloop()
-
-# ☆追加情報候補
-# お気に入りの度合いを5段階で記録
-# 週間記録、月間記録を出力
-# 前週間、前月間との比較
-
-# 参考データ
-# 9784798176611
-# 9784489022272
-# 9784788920477
-
-# 参考：フォント一覧
-# https://setsunaru.com/programming/python/pysimplegui-tkinter-font/
