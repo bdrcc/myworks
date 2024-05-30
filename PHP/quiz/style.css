@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 80%;
+    height: 90vh;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #222222;
+    border-radius: 5px;
+}
+
+.main h1,
+.main h2,
+.main p {
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home a,
+.back_home {
+    display: block;
+    width: 100px;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #222222;
+    border-radius: 3px;
+}
+
+form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.problem {
+    border: 1px solid #222222;
+    border-radius: 3px;
+    padding: 15px 0;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border: 1px solid #222222;
+    border-radius: 3px;
+}
+
+.submit input:hover,
+.home a:hover,
+.back_home:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.result {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border-top: 1px solid #222222;
+    border-left: 1px solid #222222;
+    text-align: center;
+}
+
+.result th,
+.result td {
+    border-right: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.miss {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+@media (max-width:800px) {
+    .result {
+        width: 90%;
+    }
+}
