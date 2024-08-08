@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # !_index.htmlの情報を受け取り、仮想サーバー上で使用することを想定
+# 自分の生年月から主な学校の入学年度・卒業年度を計算するアプリ
 import sys
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='UTF-8')
